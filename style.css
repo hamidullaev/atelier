@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 :root{
     --bg-gold: #ffae2b;
     --bg-gray: #aca592;
@@ -120,6 +121,58 @@ nav{
     color: var(--bg-gray);
     margin-top: 20px;
 }
+.img_banner{
+    width: 100%;
+    height: 150vh;
+}
+.image{
+    width: 100%;
+    height: 100%;
+}
+.service{
+    width: 100%;
+    height: 100vh;
+    background-color:var(--bg-dark) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.core2{
+    color: var(--bg-gray);
+}
+.main_title2{
+    color: var(--bg-gold);
+}
+
+
+.cards{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--bg-dark);
+}
+.card{
+    width: 30%;
+    height: 300px;
+    margin-top: 50px;
+    border:1px solid var(--bg-gold) ;
+}
+.text{
+    color: var(--bg-gold);
+    padding-top: 60px;
+    padding-left: 50px;
+}
+.text3{
+    width: 300px;
+    padding-left: 50px;
+    padding-top: 10px;
+    line-height: 30px;
+    color: var(--bg-gray);
+}
+
+
 
 
 
@@ -151,6 +204,16 @@ nav{
   .box{
       width: 47%;
   }
+  .text{
+      font-size: 20px;
+  }
+  .text3{
+      font-size: 15px;
+      width: 200px;
+  }
+  .cards{
+      width: 100%;
+  }
        
 
 
@@ -159,7 +222,6 @@ nav{
 
 /* for Mobile */
 @media screen and (max-width:600px){
-
    nav{
        padding: 0 20px;
    }
@@ -175,9 +237,35 @@ nav{
    .box{
        width: 100%;
    }
-
-
+   .core2{
+       font-size: 14px;
+   }
+   .main_title2{
+       font-size: 28px;
+   }
+   .cards{
+       height: 400vh;
+       display: flex;
+       flex-wrap: wrap;
+   }
+   .card{
+       width: 90%;
+       height: 300px;
+    }
+    .text{
+        padding-left: 140px;
+    }
+    .text3{
+        width: 300px;
+        text-align: center;
+        padding-left: 130px;
+    }
+    
+   
 }
+
+
+
 
 
 
